@@ -1,0 +1,36 @@
+{
+  "name": "use-properties-hook",
+  "version": "1.0.0",
+  "description": "A React Hook - instance variables with useRef",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/index.js --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvelSQ/use-properties-hook.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "immutable"
+  ],
+  "author": "MarvelSQ <sun1993hlj@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarvelSQ/use-properties-hook/issues"
+  },
+  "homepage": "https://github.com/MarvelSQ/use-properties-hook#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "react": "^16.8.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3"
+  }
+}
