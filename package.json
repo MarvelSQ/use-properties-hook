@@ -1,8 +1,9 @@
 {
   "name": "@marvelsq/use-properties-hook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A React Hook - instance variables with useRef",
   "main": "index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "babel src/index.js --out-file index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
