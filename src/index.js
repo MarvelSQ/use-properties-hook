@@ -1,5 +1,18 @@
 const { useRef } = require('react');
 
-module.exports = function(){
-  return Array.prototype.slice.apply(arguments).map(property => useRef(property).current);
+function useProperty(prop) {
+  const propInstance = useRef(prop);
+  propInstance.current = prop;
+  return useRef(
+    typeof prop === 'function' ? (...all) => propInstance.current(...all) : prop
+  ).current;
+}
+
+function useProperties(...properties) {
+  return properties.map(useProperty);
+}
+
+module.exports = {
+  useProperty,
+  useProperties
 };
