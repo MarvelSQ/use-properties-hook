@@ -1,6 +1,6 @@
 {
   "name": "@marvelsq/use-properties-hook",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A React Hook - instance variables with useRef",
   "main": "index.js",
   "types": "./index.d.ts",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/MarvelSQ/use-properties-hook#readme",
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "react": "^16.8.4"
@@ -31,7 +32,5 @@
   "peerDependencies": {
     "react": "^16.8.0"
   },
-  "dependencies": {
-    "@babel/cli": "^7.2.3"
-  }
+  "dependencies": {}
 }
